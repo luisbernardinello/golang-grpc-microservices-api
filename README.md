@@ -205,34 +205,3 @@ Handles order creation, processing, and management with a complete history of pu
 ### GraphQL API Gateway
 
 Unifies all services under a single GraphQL API, providing a seamless experience for client applications.
-
-## 🔐 Security
-
-The system implements various security measures:
-
-- Authentication using JWT
-- Service-to-service authentication
-- Role-based access control
-- Input validation
-
-## 🧪 Testing
-
-Each service includes unit and integration tests. To run tests:
-
-```
-go test ./...
-```
-
-## 📊 Project Structure
-
-```
-.
-├── api-gateway/         # GraphQL API Gateway service
-├── account-service/     # Account management service
-├── catalog-service/     # Product catalog service
-├── order-service/       # Order processing service
-├── proto/               # Protocol buffer definitions
-├── pb/                  # Generated gRPC code
-├── docker-compose.yml   # Docker Compose configuration
-└── README.md            # This file
-```
